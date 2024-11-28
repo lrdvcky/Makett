@@ -1,0 +1,878 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/Gilroy/Gilroy-Light.otf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 0 auto;
+    width: 1440px;
+    background: rgba(64, 60, 59, 1);
+}
+.wht a {
+    text-decoration: none;
+    color: white;
+}
+.none a {
+    text-decoration: none;
+    color: rgba(207, 207, 207, 1);
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: Gilroy;
+    background: rgba(64, 60, 59, 1);
+}
+.nazad a{
+    text-decoration: none;
+}
+.containerfot {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: Gilroy;
+    background: #211F20;
+}
+.logo {
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 38px 72px 36px 98px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.adress {
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 24px;
+    height: 52px;
+    width: 555px;
+    background: rgba(80, 75, 74, 1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.adress img {
+    width: 24px;
+    height: 24px;
+}
+.locate {
+    margin: 14px 8px 14px 14px;
+}
+.adress input{
+    height: 50px    ;
+    width: 450px;
+    border: none;
+    background: rgba(80, 75, 74, 1);
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(207, 207, 207, 1);
+}
+.probel {
+    display: flex;
+}
+.probel p {
+    margin-top: 15px;
+}
+.search {
+    margin-right: 17px;
+}
+.contact {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.trub {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(114, 164, 121, 1);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.trub img {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+button {
+    background: rgba(97, 137, 103, 1);
+    border-radius: 10px;
+    border: rgba(97, 137, 103, 1);
+}
+
+button { position: relative; overflow: hidden; transition: all 0.3s ease; }
+button:before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.5); transform: translateX(-100%); transition: all 0.3s ease; } 
+button:hover:before { transform: translateX(0); }
+.cont {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(207, 207, 207, 1);
+}
+.tel {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    margin-right: 188px;
+}
+.korzina {
+    align-items: center;
+    display: flex;
+    background: rgba(97, 137, 103, 1);
+    border-radius:8px;
+    height: 52px;
+    color: white;
+}
+.krug {
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 13px;
+    text-align: center;
+}
+.krug p {
+    margin-top: 4px;
+    color: black;
+}
+.kors {
+    font-weight: bold;
+    padding-left: 24px;
+    margin-right: 20px;
+}
+.korzina img {
+    margin-right: 12px;
+}
+.doct {
+    background: url(img/baner2.png);
+    height: 484px;
+}
+.doct img {
+    margin: 72px 0px 0px 94px;
+}
+.eda {
+    color: rgba(207, 207, 207, 1);
+    font-size: 18px;
+    line-height: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding: 29px 0px 28px 80px;
+    height: 78px;
+    border-bottom: 2px solid gray;
+}
+.wht {
+    color: white;
+    padding-bottom: 24px;
+}
+
+.line {
+    width: 153px;
+    border-top: 3px solid rgba(97, 137, 103, 1);
+}
+.zagol {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    color: white;
+    padding: 52px 4px 50px 90px;
+    align-items: center;
+}
+.line1 {
+    margin-right: 16px;
+    border-left: 4px solid rgba(97, 137, 103, 1); 
+    height: 32px;
+}
+.zakuc {
+    display: flex;
+    margin-bottom: 50px;
+}
+.zakuc2 {
+    margin-left: 16px;
+    border-radius: 5px;
+    background: rgba(73, 69, 68, 1);
+}
+.zakuc1 {
+    margin-left: 36px;
+    border-radius: 5px;
+    background: rgba(73, 69, 68, 1);
+}
+.text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.text2 {
+    display: flex;
+    color: rgba(207, 207, 207, 1);
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+.gl1 {
+    color: white;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 6px;
+}
+.gl2 {
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+}
+.gl4 {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+.text3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text {
+    margin: 20px 16px 18px 20px;
+}
+.korzina2 {
+    align-items: center;
+    padding: 10px 10px 10px 19px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    background: rgba(97, 137, 103, 1);
+}
+.korzina2 img {
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+}
+.minus {    
+    border-radius: 5px;
+    background: rgba(97, 137, 103, 1);
+    align-items: center;
+}
+.line2 {
+    width: 18px;
+    height: 3.5px;
+    margin: 20px 22px 20px 22px;
+    border-left: 18px solid white;
+}
+.plus1 {
+    padding: 8px 22px 8px 22px; 
+    border-radius: 5px;
+    background: rgba(97, 137, 103, 1);
+    align-items: center;
+}
+.gl5 {
+    margin-bottom: 19px;
+}
+.liniya {
+    width: 1440px;
+    border-top: 3px solid gray ;
+}
+
+.zakuc3 {
+    display: flex;
+    padding-bottom: 93px;
+}
+.yagn {
+    display: flex;
+    margin: 0 auto;
+    width: 1365px;
+    height: 610px;
+    background: url(img/MaskGroup.png);
+}
+.ytext {
+    margin: 100px 0px 0px 70px;
+}
+.gl6 {
+    color: white;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 26px;
+}
+.gl7 {
+    width: 563px;
+    color: #CFCFCF;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.knopka {
+    border-radius: 5px;
+    width: 223px;
+    border: 1px solid gray;
+    background: rgba(64, 60, 59, 1);
+}
+.knopka p {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 22px 25px 21px 64px;
+}
+.ikon {
+    gap: 15px;
+    display: flex;
+    margin: 70px 0px 0px 160px;
+}
+.clas {
+    gap: 26px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 227px;
+    width: 228px;
+    background: rgba(64, 60, 59, 1);
+    color: white;
+}
+.clas img {
+    margin-top: 66px;
+}
+.gl8 {
+    color: #79B282;
+}
+.ikon2 {
+    gap: 15px;
+    display: flex;
+    margin: 15px 0px 0px 160px;
+}
+.fonn {
+    display: flex;
+    padding: 70px 0px 0px 109px;
+    width: 1440px;
+    height: 530px;
+    background: url(img/mgroup2.png);
+    justify-content: space-between;
+}
+.kont {
+    height: 95%;
+    width: 526px;
+    background: #2E2B2C;
+    padding: 25px 0px 0px 43px;
+    border-radius: 8px;
+}
+.kont h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 21px;
+}
+.mesa {
+    display: flex;
+    margin-left: 9px;
+    color: white;
+    margin-top: 15px;
+
+}
+.mesa img {
+    margin-right: 11px;
+    width: 24px;
+    height: 24px;
+}
+.txt1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gl11 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+.gl10 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #CFCFCF;
+}
+.line51 {
+    padding-bottom: 17px;
+}
+.bron {
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    width: 211px;
+    background: #618967;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    padding: 22px 30px 21px 30px;
+}
+
+.bronya {
+    padding-left: 9px;
+    display: flex;
+}
+.bron1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+.gl12 {
+    font-weight: bold;
+    margin-top: 7px;
+    font-size: 23px;
+    line-height: 28px;
+}
+.gl13 {
+    color: #CFCFCF;
+    font-size: 13px;
+    line-height: 15px;
+}
+.coct {
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: white;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.kont .coct {
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+}
+.ik {
+    display: flex;
+    gap: 10px;
+}
+.zdec { 
+    display: flex;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center;
+    margin-right: 100px;
+}
+.ellipse {
+    margin-left: 40px;
+    width: 64px;
+    height: 64px;
+    background: url(img/strel.png) no-repeat ;
+}
+.fotnav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:55px;
+}
+.textes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding-bottom: 28px;
+}
+footer {
+    color: white;
+    list-style-type: none;
+}
+.textes1 {
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    gap: 30px;
+}
+.textes1 a {
+    text-decoration: none;
+
+}
+.logo1 {
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 9px;
+    margin-top: 26px;
+}
+.gr13 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #CFCFCF;
+}
+.gr14 {
+    font-size: 14px;
+    line-height: 16px;
+}
+.lineya {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.nazad {
+    padding-bottom: 24px;
+    padding-top: 44px;
+    margin-left: 116px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    gap: 10px;
+}
+.yagon img{
+    width: 600px;
+}
+.textes2 {
+    margin: 39px 0px 0px 50px;
+}
+.vkuc {
+    border-radius: 8px;
+    background: #504B4A;
+    margin-left: 116px;
+    display: flex;
+    width: 1210px;
+}
+.gr15 {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.gr16 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #CFCFCF;
+}
+.gr17 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #CFCFCF;
+    margin-bottom: 22px;
+
+}
+.razriv {
+    display: flex;
+    flex-direction: column;
+    gap: 113px;
+}
+.korzinas {
+    align-items: center;
+    display: flex;
+    background: rgba(97, 137, 103, 1);
+    border-radius:8px;
+    height: 52px;
+    color: white;
+    width: 170px;
+}
+.nef {
+    margin-left: 20px;
+}
+.korp { 
+    display: flex;
+    align-items: center;
+}
+.gr18 {
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+}
+.belki {
+    font-size: 12px;
+    line-height: 13px;
+    gap: 50px;
+    margin-top: 30px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+.menu {
+    display: none;
+}
+
+.linee {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-top: 1px solid gray;
+}
+.moika1 {
+    display: none;
+}
+.gram {
+    font-size: 12px;
+    line-height: 13px;
+    gap: 65px;
+    margin-top: 5px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+.lineee {
+    border-top: 1px solid gray;
+
+    margin-top: 50px;
+}
+.moika {
+    display: none;
+}
+a {
+    text-decoration: underline;
+    color: white;
+}
+@media screen and (min-width: 375px) and (max-width: 750px){
+    header {
+        width: 100%;
+    }
+    header .container {
+        display: block;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    .doct {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .doct img {
+        margin: 0;
+        width: 100%;
+    }
+    .eda {
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px 15px 20px 15px;
+        font-size: 16px;
+        line-height: 16px; 
+        height: auto;
+    }
+    .line {
+        width: 100%;
+    }
+    .wht {
+        margin: 0;
+    }
+    header .cont {
+        display: none;
+    }
+    header .korzina {
+        display: none;
+    }
+    .trub {
+        display: none;
+    }
+    .adress {
+        width: 90%;
+    }
+    .logo {
+        padding: 0;
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+        padding: 20px 20px 0px 20px;
+        align-items: center;
+        justify-content: space-between  ;
+    }
+    .menu img {
+        width: auto;
+        height: auto;
+    }
+    .kors2 { 
+            padding: 5px 7px 9px 8px;
+            align-items: center;
+            display: flex;
+            background: rgba(97, 137, 103, 1);
+            border-radius:8px;
+            color: white;
+            flex-direction: column;
+    }
+    .textes2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 23px 45px 20px 40px;
+    }
+    #zak {
+        margin-bottom: 40px;
+    }
+    .nazad {
+        display: none;
+    }
+    .yagon {
+        width: 100%;
+    }
+    .razriv {
+        text-align: center;
+        gap: 10px;
+    }
+    .nav .logo {
+        display: none;
+    }
+    #cont2 {
+        width: 100%;
+    }
+    .vkuc {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .yagon img {
+        width: 100%;
+    }
+    #cont {
+        display: none;
+    }
+    .linn {
+        width: 100%;
+        border-bottom: 2px solid white;
+    }
+    .men {
+        display: none;
+    }
+    .zagol {
+        font-size: 20px;
+        padding: 35px 0px 40px 35px;
+    }
+    .line1 {
+        height: 23px;
+    }
+    .zakuc {
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .zakuc1 {
+        margin: 0;
+    }
+    .zakuc2 {
+        margin: 0;
+    }
+    .zakuc1 {
+        margin: 0;
+    }
+    #last {
+        margin-bottom: 25px;
+    }
+    .zakuc3 {
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #kafe {
+        display: none;
+    }
+    #konta {
+        width: 100%;
+    }
+    .fonn {
+        background: url(img/ulica2.png);
+        height: auto;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .kont {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-top: 19px;
+        width: 90%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .kont h3 {
+        padding-top: 20px;
+    }
+    .moika {
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        width: 211px;
+        background: #618967;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: bold;
+        padding: 22px 30px 21px 30px;
+    }
+    .bron {
+        display: none;
+    }
+    .bronya {
+        padding-left: 0px;
+        gap: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .moika1 {
+        display: block;
+        border-radius: 5px;
+        color: white;
+        background: #2E2B2C;
+        border: 1px solid white;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: bold;
+        padding: 22px 30px 21px 30px;
+        width: 211px;
+    }
+    .bron1 {
+        margin: 0;
+    }
+    .coct {
+        padding-right: 0px;
+    }
+    .mesas {
+        margin-left: 16px;
+    }
+    .zdec {
+        display: flex;
+        margin: 100px 0px 100px 0px;
+    }
+    .containerfot {
+        width: 100%;
+    }
+    .fotnav {
+        width: 100%;
+        justify-content: center;
+    }
+    .textes1 {
+        display: none;
+    }
+    .textes {
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .ellipse {
+        margin: -100px 0px 0px 0px;
+    }
+    a {
+        text-decoration: underline;
+        color: white;
+    }
+    .adress input {
+        height: 50px;
+        width: 100%;
+    }
+}
